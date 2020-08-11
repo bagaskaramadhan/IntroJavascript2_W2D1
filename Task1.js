@@ -22,4 +22,3 @@ console.log(name);
 
 //pop
 console.log(name.pop());
-// console.log(name);
