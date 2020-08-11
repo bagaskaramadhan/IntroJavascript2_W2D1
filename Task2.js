@@ -21,4 +21,4 @@ let calc = function (num1, num2, calcType) {
 
 console.log(calc(2, 3, 'multiply')); //output = 5
 
-const name = ['']
+// const name = ['']
