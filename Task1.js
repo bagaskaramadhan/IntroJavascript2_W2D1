@@ -15,3 +15,11 @@ const lucky = value.filter(function(test) {
 });
 console.log(lucky);
 
+//push
+const counta = name.push('Zendaya');
+// console.log(counta);
+console.log(name);
+
+//pop
+console.log(name.pop());
+// console.log(name);
