@@ -8,7 +8,7 @@ const name = [
 
 const searchName = (str, int, callback) => {
     const lower = name.map(x => x.toLowerCase());
-    const filtre = lower.filter(y => y.includes(str))
+    const filtre = lower.filter(y => y.includes(str.toLowerCase()))
     return callback(filtre, int);
 }
 const test = (filtre, int) => {
@@ -18,7 +18,7 @@ const test = (filtre, int) => {
         }
     });
 }
-console.log(searchName('an', 3, test));
+console.log(searchName('An', 5, test));
 
 // const fGirl = (name, callback) => {
 //     const hasil = `${name}`;
